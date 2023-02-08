@@ -1,4 +1,4 @@
-# Plus Ultra
+# Elements
 
 <a href="https://nixos.wiki/wiki/Flakes" target="_blank">
 	<img alt="Nix Flakes Ready" src="https://img.shields.io/static/v1?logo=nixos&logoColor=d8dee9&label=Nix%20Flakes&labelColor=5e81ac&message=Ready&color=d8dee9&style=for-the-badge">
@@ -158,41 +158,15 @@ Packages can be used directly from the flake.
 }
 ```
 
-### [`at`](./packages/at/default.nix)
-
-[`@`](https://npm.im/@suchipi/at-js) - JavaScript stdio transformation tool.
-
-### [`doukutsu-rs`](./packages/doukutsu-rs/default.nix)
-
-[`doukutsu-rs`](https://github.com/doukutsu-rs/doukutsu-rs) - A fully playable re-implementation of Cave Story (Doukutsu Monogatari) engine written in Rust.
-
 ### [`firefox-nordic-theme`](./packages/firefox-nordic-theme/default.nix)
 
 [A dark theme for Firefox](https://github.com/EliverLara/firefox-nordic-theme) created using the [Nord](https://github.com/arcticicestudio/nord) color palette.
 
-### [`frappe-books`](./packages/frappe-books/default.nix)
-
-The AppImage build of [Frappe Books](https://frappebooks.com).
-
-### [`hey`](./packages/hey/default.nix)
-
-A Firefox wrapper for [HEY](https://hey.com).
-
 ### [`infrared`](./packages/infrared/default.nix)
-
-A Minecraft [reverse proxy](https://github.com/haveachin/infrared).
-
-### [`kalidoface`](./packages/kalidoface/default.nix)
-
-Runs [Kalidoface](https://kalidoface.com) in Firefox.
 
 ### [`list-iommu`](./packages/list-iommu/default.nix)
 
 A helper script to list IOMMU devices.
-
-### [`nix-get-protonup`](./packages/nix-get-protonup/default.nix)
-
-A helper script to install [Proton GE](https://github.com/GloriousEggroll/proton-ge-custom).
 
 ### [`nix-update-index`](./packages/nix-update-index/default.nix)
 
@@ -205,27 +179,6 @@ A flake-enabled version of `nixos-option`.
 ### [`nixos-revision`](./packages/nixos-revision/default.nix)
 
 A helper script to get the configuration revision of the current system.
-
-### [`steam`](./packages/steam/default.nix)
-
-Extra desktop items for Steam to launch the application in Pipewire mode
-or enable the gamepad UI.
-
-### [`titan`](./packages/titan/default.nix)
-
-A JavaScript [monorepo management tool](https://npm.im/@jakehamiton/titan).
-
-### [`twitter`](./packages/twitter/default.nix)
-
-A Firefox wrapper for Twitter.
-
-### [`ubports-installer`](https://devices.ubuntu-touch.io/installer)
-
-Install Ubuntu Touch on mobile devices.
-
-### [`ubports-installer-udev-rules`](https://docs.ubports.com/en/latest/userguide/install.html#missing-udev-rules)
-
-`udev` rules to allow `ubports-installer` to recognize devices.
 
 ### [`wallpapers`](./packages/wallpapers/default.nix)
 
