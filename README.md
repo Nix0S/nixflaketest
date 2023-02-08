@@ -82,26 +82,15 @@ See the following example for how to apply overlays from this flake.
 				elements.overlays.firefox
 				elements.overlays.flyctl
 				elements.overlays.gnome
-				elements.overlays.kubecolor
 				elements.overlays.linux
 				elements.overlays.lutris
 				elements.overlays.nordic
-				elements.overlays.obs
-				elements.overlays.pocketcasts
-				elements.overlays.prismlauncher
 				elements.overlays.tmux
 
 				# Individual overlays for each package in this flake
 				# are available for convenience.
-				elements.overlays."package/at"
-				elements.overlays."package/doukutsu-rs"
 				elements.overlays."package/firefox-nordic-theme"
-				elements.overlays."package/frappe-books"
-				elements.overlays."package/hey"
-				elements.overlays."package/infrared"
-				elements.overlays."package/kalidoface"
 				elements.overlays."package/list-iommu"
-				elements.overlays."package/nix-get-protonup"
 				elements.overlays."package/nix-update-index"
 				elements.overlays."package/nixos-option"
 				elements.overlays."package/nixos-revision"
