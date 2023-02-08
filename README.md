@@ -36,7 +36,7 @@
 ![launcher](./assets/launcher.png)
 
 ![busy](./assets/busy.png)
-
+				elements.overlays."package/nix-get-protonup"
 ![firefox](./assets/firefox.png)
 
 ## Overlays
